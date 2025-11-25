@@ -2,7 +2,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: gin-demo-ingress
+  name: gin-mall-ingress
 spec:
   ingressClassName: nginx  # 必须指定！
   rules:
