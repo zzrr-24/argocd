@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: gin-mall
-        image: registry.cn-hangzhou.aliyuncs.com/zzrr_images/gin-mall:v1
+        image: registry.cn-hangzhou.aliyuncs.com/zzrr_images/gin-demo:v1
         ports:
         - containerPort: 8080
