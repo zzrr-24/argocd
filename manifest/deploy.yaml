@@ -2,20 +2,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: gin-demo
-  name: gin-demo
+  namespace: gin-mall
+  name: gin-mall
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: gin-demo
+      app: gin-mall
   template:
     metadata:
       labels:
-        app: gin-demo
+        app: gin-mall
     spec:
       containers:
-      - name: gin-demo
-        image: registry.cn-hangzhou.aliyuncs.com/zzrr_images/gin-demo:v1
+      - name: gin-mall
+        image: registry.cn-hangzhou.aliyuncs.com/zzrr_images/gin-mall:v1
         ports:
         - containerPort: 8080

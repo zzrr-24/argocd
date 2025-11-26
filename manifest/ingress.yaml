@@ -13,6 +13,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: gin-demo-svc
+            name: gin-mall-svc
             port:
               number: 80
